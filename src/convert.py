@@ -117,6 +117,8 @@ def convert_and_upload_supervisely_project(
         img_height = image_np.shape[0]
         img_wight = image_np.shape[1]
         file_idx = get_file_name(image_path)
+        if file_idx in ["11", "85", "116", "2212", "4583"]:
+            print(1)
         image_tags = [tag for tag in tag_dict[file_idx] if tag_dict[file_idx][tag] == "1"]
         tags = []
         for tag in image_tags:
@@ -136,8 +138,8 @@ def convert_and_upload_supervisely_project(
                         if color == 0:
                             continue
                         mask = mask_np == 255
-                        label_name = [name for name in classes if name in mask_file]
-                        obj_class = meta.get_obj_class(label_name[0])
+                        label_name = mask_file[6 : mask_file.find(".png")]
+                        obj_class = meta.get_obj_class(label_name)
                         curr_bitmap = sly.Bitmap(mask)
                         scaled_bitmap = curr_bitmap.resize(
                             (mask_height, mask_wight), (img_height, img_wight)

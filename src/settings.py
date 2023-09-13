@@ -36,7 +36,7 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://mmlab.ie.cuhk.edu.hk/projects/CelebA/CelebAMask_HQ.html"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = None
+PREVIEW_IMAGE_ID: int = 3817811
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/celebamask-hq"
@@ -55,7 +55,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 
 # If you have more than the one paper, put the most relatable link as the first element of the list
 # Use dict key to specify name for a button
-PAPER: Optional[Union[str, List[str], Dict[str, str]]] = ["https://arxiv.org/pdf/1907.11922.pdf"]
+PAPER: Optional[Union[str, List[str], Dict[str, str]]] = ["https://arxiv.org/abs/1907.11922"]
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = [
     "https://github.com/switchablenorms/CelebAMask-HQ"
