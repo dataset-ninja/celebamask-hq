@@ -1,6 +1,6 @@
 Dataset **CelebAMask-HQ** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](Set 'HIDE_DATASET=False' to generate download link)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/N/i/Oz/bMyUfiVHflxjMS0Hfkf1bIOgrSMkM5wBKKrCh7zFWgp6Ep73JVQMKtik0RTKvLp5BuOWHz7fTAGT4fZvfQzPeKpMPzTJfhdAlAcR3wx4Jpox3ZwRfdo3YcjC3kkJ.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
