@@ -1,7 +1,6 @@
 **CelebAMask-HQ** is a large-scale face image dataset that has 30,000 high-resolution face images selected from the CelebA dataset by following CelebA-HQ. Each image has segmentation mask of facial attributes corresponding to CelebA.
 
-Authors built a large-scale face semantic label dataset, which was labeled according to CelebAHQ that contains 30,000 high-resolution face images
-from CelebA. It has several appealing properties:
+Authors built a large-scale face semantic label dataset, which was labeled according to CelebAHQ that contains 30,000 high-resolution face images from CelebA. It has several appealing properties:
 
 - Comprehensive Annotations. CelebAMask-HQ was precisely hand-annotated with the size of 512 × 512 and 19 classes including all facial components and accessories such as _skin_, _nose_, _eyes_, _eyebrows_, _ears_, _mouth_, _lip_, _hair_, _hat_, _eyeglass_, _earring_, _necklace_, _neck_, and _cloth_.
 
