@@ -23,8 +23,8 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 LICENSE: License = License.Custom(
     url="https://github.com/switchablenorms/CelebAMask-HQ#dataset-agreement"
 )
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Research.Biological()]
-CATEGORY: Category = Category.Biology()
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Entertainment()]
+CATEGORY: Category = Category.Entertainment()
 
 CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.SemanticSegmentation()]
@@ -78,7 +78,9 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
 ]
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
-SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = None
+SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
+    "__PRETEXT__": "Additionally, every image contains information about visual characteristics of a person"
+}
 TAGS: Optional[List[str]] = None
 
 
