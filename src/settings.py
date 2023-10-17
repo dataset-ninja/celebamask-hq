@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "CelebAMask-HQ"
 PROJECT_NAME_FULL: str = "CelebAMask-HQ"
-HIDE_DATASET = False  # set False when 100% sure about repo quality
+HIDE_DATASET = True  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -57,9 +57,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = ["https://arxiv.org/abs/1907.11922"]
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = [
-    "https://github.com/switchablenorms/CelebAMask-HQ"
-]
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Github": "https://github.com/switchablenorms/CelebAMask-HQ"}
 
 CITATION_URL: Optional[
     str
