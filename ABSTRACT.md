@@ -6,7 +6,7 @@ It has several appealing properties:
 
 ![Some samples](https://i.ibb.co/b17nrtW/sample.png)
 
-- Label Size Selection. The size of images in CelebAHQ were 1024 × 1024. However, we chose the size of 512×512 because the cost of the labeling would be quite high for labeling the face at 1024×1024. Besides, we could easily extend the labels from 512×512 to 1024x1024 by nearest-neighbor interpolation without introducing noticeable artifacts.
+- Label Size Selection. The size of images in CelebAHQ were 1024×1024. However, we chose the size of 512×512 because the cost of the labeling would be quite high for labeling the face at 1024×1024. Besides, we could easily extend the labels from 512×512 to 1024x1024 by nearest-neighbor interpolation without introducing noticeable artifacts.
 
 - Quality Control. After manual labeling, we had a quality control check on every single segmentation mask. Furthermore, we asked annotators to refine all masks with several rounds of iterations.
 
