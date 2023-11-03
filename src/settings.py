@@ -57,12 +57,14 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = ["https://arxiv.org/abs/1907.11922"]
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Github": "https://github.com/switchablenorms/CelebAMask-HQ"}
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub": "https://github.com/switchablenorms/CelebAMask-HQ"}
 
 CITATION_URL: Optional[
     str
 ] = "https://github.com/switchablenorms/CelebAMask-HQ#license-and-citation"
 AUTHORS: Optional[List[str]] = ["Cheng-Han Lee", "Ziwei Liu", "Lingyun Wu", "Ping Luo"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["steven413d@gmail.com"]
+
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
     "SenseTime Research",
@@ -126,6 +128,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
