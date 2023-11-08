@@ -24,7 +24,7 @@ LICENSE: License = License.Custom(
     url="https://github.com/switchablenorms/CelebAMask-HQ#dataset-agreement"
 )
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Entertainment()]
-CATEGORY: Category = Category.Entertainment()
+CATEGORY: Category = Category.Entertainment(benchmark=True)
 
 CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.SemanticSegmentation()]
