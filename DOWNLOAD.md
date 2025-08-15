@@ -1,6 +1,6 @@
 Dataset **CelebAMask-HQ** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzIwNDFfQ2VsZWJBTWFzay1IUS9jZWxlYmFtYXNrLWhxLURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogIlduVmIvQW1YYk5BdGtSUzVoK0EzTkxqMUpZSEFRbFphR3RYV3ZBMmFxKzQ9In0=)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogInMzOi8vc3VwZXJ2aXNlbHktZGF0YXNldHMvMjA0MV9DZWxlYkFNYXNrLUhRL2NlbGViYW1hc2staHEtRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAiNUhncTdZT1ZvVEdMaDBaVFU2aUxEQmpkVW12UzQwdTJ1RjhBSkNwNEJCdz0ifQ==?response-content-disposition=attachment%3B%20filename%3D%22celebamask-hq-DatasetNinja.tar%22)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
